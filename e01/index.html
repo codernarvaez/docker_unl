@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">    
+    <title>Links website</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      body {
+        height: 100vh;
+        background: url("https://i.pinimg.com/originals/85/db/4c/85db4cdddb9ff48014a768d8903c344d.jpg");
+        background-size: cover;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        text-decoration: none;
+      }
+      button {
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        font-size: .8rem;
+        gap: .5rem;
+        width: 20rem;
+        padding: 0 1rem;
+        border-radius: 5rem;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+        background-color: transparent;
+      }
+      main {
+        height: 100%;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .columnCenter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .containerImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        padding: 1rem;
+        background-color: blueviolet;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .containerButtons {
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .icon {
+        font-size: 1rem;
+      }
+      .shape {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #8E2DE2;
+        opacity: .75;
+        z-index: -1;
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+        background: linear-gradient(to right, #4A00E0, #8E2DE2);
+      }
+      @media (hover:hover) {
+        button:hover {
+          background-color: #ffffff38;
+          opacity: .7;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shape"></div>
+    <main class="columnCenter">
+      <div class="containerImage">
+        <img src="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" alt="Ícono de Descompilados" title="Descompilados" width="70">
+      </div>
+      <h1>Cristan Narváez (crnarvaezg)
+        <img src="https://cdn-icons-png.flaticon.com/512/6364/6364343.png" alt="" width="15">
+      </h1>
+      <section class="containerButtons columnCenter">
+        <a href="https://github.com/crnarvaezg">
+          <button>
+            <span class="icon">💼</span>
+            <p>Mi portafolio</p>
+          </button>
+        </a>
+        <a href="https://www.youtube.com/channel/UCXebVNGzvbmzGZIJ-azV15A">
+          <button>
+            <span class="icon">📷</span>
+            <p>Mi canal</p>
+          </button>
+        </a>
+        <a href="https://github.com/crnarvaezg">
+          <button>
+            <span class="icon">🌐</span>
+            <p>Mi sitio web</p>
+          </button>
+        </a>
+        <a href="https://www.canva.com/design/DAF1rrEOs34/1oqEgK7KXRGCZO4VLkXanw/edit?utm_content=DAF1rrEOs34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+          <button>
+            <span class="icon">🔗</span>
+            <p>Curso Docker</p>
+          </button>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
